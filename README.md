@@ -1,5 +1,7 @@
 # Conventional Comments Skill
 
+[![skills.sh](https://skills.sh/b/roziscoding/conventional-comments)](https://skills.sh/roziscoding/conventional-comments)
+
 This repository packages an agent skill for writing Conventional Comments in pull request and merge request reviews.
 
 The skill was derived from the badge behavior implemented by the Pullpo Conventional Comments browser extension. Thanks to Pullpo for the original extension and for making the review-comment format easier to use in everyday code review workflows.
@@ -63,15 +65,15 @@ Use this skill when an agent needs to:
 >
 > This helper could return early to keep the main path easier to scan.
 
->[![issue(blocking)](https://img.shields.io/badge/issue-blocking-374151?labelColor=EF4444)](https://comments.example/cc?l=issue&d=blocking)
+> [![issue(blocking)](https://img.shields.io/badge/issue-blocking-374151?labelColor=EF4444)](https://comments.example/cc?l=issue&d=blocking)
 >
->This branch can write a duplicate record when the retry runs after a partial failure.
+> This branch can write a duplicate record when the retry runs after a partial failure.
 
->[![question](https://img.shields.io/badge/question-8B5CF6)](https://comments.example/cc?l=question)
+> [![question](https://img.shields.io/badge/question-8B5CF6)](https://comments.example/cc?l=question)
 >
->Should this also handle archived projects?
+> Should this also handle archived projects?
 
-The skill also includes a full badge matrix at [references/matrix.md](skills/conventional-comments/references/matrix.md)
+The skill also includes a full badge matrix at [references/matrix.md](skills/conventional-comments/references/matrix.md).
 
 ## Installation
 
@@ -90,3 +92,7 @@ skills/conventional-comments
 ```
 
 The exact destination depends on your agent runtime. The important part is that the directory containing `SKILL.md` is available as a skill named `conventional-comments`.
+
+## License
+
+MIT
